@@ -1,0 +1,14 @@
+/* global styling */
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+}
+
+/* start main container styling */
