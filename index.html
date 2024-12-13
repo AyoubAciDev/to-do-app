@@ -6,26 +6,26 @@
   <!-- add the css files -->
    <link rel="stylesheet" href="css/all.min.css">
    <link rel="stylesheet" href="css/style.css">
-  <title>Weather Checker!</title>
+  <title>To Do App</title>
 </head>
 <body>
   <div class="main-container">
-    <div class="search-bar-container">
-      <input class="js-search-field" type="text" required placeholder="Enter a city">
-      <i class="fa-solid fa-magnifying-glass js-search-btn"></i>
-    </div>
-    <img class="js-img" src="icons/01.png" alt="weather icon">
-    <h3 class="temp">7&deg;C</h3>
-    <h3 class="city">Jijel</h3>
-    <div class="more-info-container">
-      <div class="more-info">
-        <i class="fa-solid fa-water"></i>
-        <div class="number humidity"><p>10.7 % <br><span>Humidity</span></p></div>
+    <div class="app-container">
+      <!-- this a To Do App :-->
+       <h1 class="app-title">
+        To-Do list
+        <img src="icons/notes-and-pencil-22341.png" alt="notes and pencil">
+      </h1>
+      <!----------------------->
+      <div class="add-task">
+        <input placeholder="Add your task" type="text" class="input-task">
+        <button class="add-btn">Add</button>
       </div>
-      <div class="more-info">
-        <i class="fa-solid fa-wind"></i>
-        <div class="number wind-speed"><p>10.7 km/h<br><span>Wind Speed</span></p></div>
+      <p class="please">Please enter a task!</p>
+      <!----------------------->
+      <div class="tasks-container">
       </div>
+      <p class="no-tasks">No tasks added!</p>
     </div>
   </div>
   <script src="main.js"></script>
