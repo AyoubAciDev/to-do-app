@@ -42,7 +42,7 @@ function generateHtml(tasks) {
       deleteBtnElement.addEventListener("click", () => {
         // Find the index of the task based on its id
         const taskIndex = tasks.findIndex(task => task.id === element.id);
-        
+        storeList(tasks);
         if (taskIndex !== -1) {
           tasks.splice(taskIndex, 1);  // Remove the task from the array
           storeList(tasks);  // Update the stored list
