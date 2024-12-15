@@ -150,7 +150,7 @@
 }
 
 .done .checked {
-  background-image: url('/icons/red-check-mark-correct-tick-16240.png');
+  background-image: url('.icons/red-check-mark-correct-tick-16240.png');
   background-size: contain;
   border: none !important;
 }
